@@ -1,0 +1,61 @@
+<!--New Registeration-->
+<!doctype html>
+<html>
+<head>
+<title>New Registeration</title>
+<script type="text/javascript">
+function CanSubmit()
+{
+var pwd=document.forms[0].txtPassword.value;
+var cpwd=document.forms[0].txtConfirmPassword.value;
+if(pwd==cpwd)
+{
+{
+alert("Password set..Congratulations!!You are a registered member now.");
+return true;
+}
+}
+else
+{
+alert("Please make sure that Password and Confirm Password values match");
+return false;
+}
+}
+</script>
+<style>
+h1{
+color:Red;
+}
+</style>
+</head>
+<body bgcolor="lightblue">
+<img src="unnamed2.png" align="left" height=600 width=600>
+<center><h1><u>New User Registeration</u></h1></center><br><br>
+<center><form method="post" action="" onsubmit="return CanSubmit()" >
+<font size=3><b>
+Enter First Name    : <input type=text maxlength=50 placeholder="Enter First Name Here" required><br><br>
+Enter Surname       : <input type=text maxlength=50 placeholder="Enter Surname Here" required><br><br>
+Enter Date of Birth : <input type="date" required><br><br>
+Select Gender       :<br><br>
+<input type="radio" value="m" name="gender">Male&nbsp;&nbsp;&nbsp;<input type="radio" value="f" name="gender">Female&nbsp;&nbsp;&nbsp;<input type="radio" value="c" name="gender">Custom<br><br>
+Enter Contact No.   : <input type="text" maxlength=10 placeholder="Enter your contact no" required><br><br>
+Enter Email Id      : <input type="email" placeholder="Enter your e-mail Id"><br><br>
+Enter Address       : <br><br>
+<textarea rows="5" cols="50" placeholder="Enter the Address"></textarea><br><br>
+Select Blood Group  :<select>
+<option value="0">---Select---</option>
+<option value="1">A+</option>
+<option value="2">A-</option>
+<option value="3">B+</option>
+<option value="4">B-</option>
+<option value="5">O+</option>
+<option value="6">O-</option>
+<option value="7">AB+</option>
+<option value="8">AB-</option>
+</select><br><br>
+Enter Password: <input type="password" name="txtPassword" value=""><br><br>
+Confirm Password: <input type="password" name="txtConfirmPassword" value=""><br><br>
+<input type="submit" value="Submit" name="btnSubmit" onclick="return()"></center></b></font>
+</form>
+</body>
+</html>

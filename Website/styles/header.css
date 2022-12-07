@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+header{
+    display: flex;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 62px;
+    margin-left: 32px;
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 80px;
+    background: linear-gradient(270deg, #eb4559,#f78259);
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    color: honeydew;
+    box-direction: dashed;
+    letter-spacing: .2rem;
+    border: 2px solid aliceblue;
+}
+.header-main>i{
+    font-size: 30px;
+    margin-right: 18px;
+    margin-top: 2px;
+    color: honeydew;
+}
+
+.header-main>h1{
+    font-family:  'Arvo', serif,monospace;
+}
+
+.header-main:hover{
+    box-shadow: 5px 5px 40px 0px rgba(46, 61, 73, 0.2);
+    border: 5px dashed aliceblue;
+}

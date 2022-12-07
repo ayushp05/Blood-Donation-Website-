@@ -1,0 +1,127 @@
+/* Article part */
+.area{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 24px;
+    margin: 24px;
+    margin-bottom: 120px;
+}
+
+.area-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.area>article{
+    margin: 24;
+    margin-left: 250px;
+    margin-top: 80px;
+    width: 50%;
+    text-shadow: 5px 5px 25px  rgba(46, 61, 73, 0.2);
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.extra{
+    margin: 24;
+    margin-left: 250px;
+    margin-top: 80px;
+    width: 50%;
+    text-shadow: 5px 5px 25px  rgba(46, 61, 73, 0.2);
+    font-size: 14px;
+    line-height: 1.5rem;
+
+}
+
+.area-reverse>article{
+    margin: 24;
+    margin-left: 180px;
+    margin-top: 80px;
+    width: 50%;
+    text-shadow: 5px 5px 25px  rgba(46, 61, 73, 0.2);
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 12px;
+    line-height: 2rem;
+}
+.area>article>ul{
+    margin: 24px;
+   
+}
+
+.area>article>li{ 
+    list-style-type: circle;
+}
+
+/* Image part */
+.overlap{
+    position: relative;
+}
+
+.area-reverse>.overlap{
+    margin-left: 80px;
+}
+  
+.img1{
+    height: 300px;
+    width: 360px;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100px);
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    
+}
+.img2{
+  
+    height: 420px;
+    width: 420px;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    margin-left: 100px;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+#one{
+    background: url('../images/Pregnant.jpg')center/cover no-repeat;
+}
+
+#two{
+    background: url('../images/accident.jpg')center/cover no-repeat;
+}
+#three{
+    background: url('../images/thalasamia.jpeg')center/cover no-repeat;
+}
+#four{
+    background: url('../images/thalasamia.jpg')center/cover no-repeat;
+}
+#five{
+    background: url('../images/Blood\ Donation.jpg.webp')center/cover no-repeat;
+}
+#six{
+    background: url('../images/grow.jpg')center/cover no-repeat;
+}
+
+.img2:hover{
+    border: 10px solid rgb(149, 144, 199);
+    transition-duration: .1s;
+    
+}
+
+.img1:hover{
+    border: 10px solid rgb(149, 144, 199);
+    transition-duration: .1s;
+}
+
+.zoom:hover{
+    
+    transform: translateY(-10px);
+    text-shadow: 15px 15px 2px rgba(46, 61, 73, 0.2);
+    
+}
